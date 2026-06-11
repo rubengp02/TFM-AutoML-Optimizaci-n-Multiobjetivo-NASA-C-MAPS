@@ -733,7 +733,7 @@ def run_paso_01_pipeline(subset: str, validation_size: float = DEFAULT_VALIDATIO
 
 
 def main() -> None:
-    """Parsea argumentos CLI y ejecuta el entrenamiento/evaluación de modelos tradicionales."""
+    """Ejecuta la configuración final del paso 1: entrenamiento y evaluación de modelos tradicionales."""
     # Configuración usada en este experimento.
     subset = "FD004"
     validation_size = DEFAULT_VALIDATION_SIZE

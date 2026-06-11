@@ -348,7 +348,7 @@ def run_paso_02_pipeline(subset: str, max_models: int = DEFAULT_H2O_MAX_MODELS, 
 
 
 def main() -> None:
-    """Parsea argumentos CLI y ejecuta H2O AutoML, guardando leaderboard y evaluación en test oficial."""
+    """Ejecuta la configuración final del paso 2: entrenamiento y evaluación de H2O AutoML."""
     # Configuración usada en este experimento.
     subset = "FD004"
     max_models = 30

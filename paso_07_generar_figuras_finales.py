@@ -254,7 +254,7 @@ def run_paso_07_pipeline(results_dir: str = "results/final") -> list[Path]:
 
 
 def main() -> None:
-    """Parsea argumentos CLI y genera las figuras finales a partir de los CSV finales consolidados."""
+    """Ejecuta la configuración final del paso 7: generación de figuras finales."""
     # Configuración usada en este experimento.
     output_dir = "results"
     final_comparison_run_id = "FD004_comparison_final"

@@ -166,7 +166,7 @@ def run_paso_04_pipeline(subset: str, comparison_run_id: str, max_rmse_degradati
 
 
 def main() -> None:
-    """Parsea argumentos CLI y selecciona la mejor solución de compromiso del Pareto inicial."""
+    """Ejecuta la configuración final del paso 4: selección de la solución de compromiso."""
     # Configuración usada en este experimento.
     subset = "FD004"
     comparison_run_id = "FD004_comparison_initial"

@@ -500,7 +500,7 @@ def run_paso_05_pipeline(subset: str, comparison_run_id: str, n_trials: int = DE
 
 
 def main() -> None:
-    """Parsea argumentos CLI y ejecuta la optimización NSGA-II sobre el modelo de compromiso seleccionado."""
+    """Ejecuta la configuración final del paso 5: optimización multiobjetivo mediante NSGA-II."""
     # Configuración usada en este experimento.
     subset = "FD004"
     comparison_run_id = "FD004_comparison_initial"

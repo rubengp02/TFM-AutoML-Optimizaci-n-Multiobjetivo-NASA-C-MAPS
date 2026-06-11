@@ -273,7 +273,7 @@ def run_paso_06_pipeline(subset: str, baseline_run_id: str, h2o_run_id: str, nsg
 
 
 def main() -> None:
-    """Parsea argumentos CLI y genera la comparación final integrando resultados de NSGA-II."""
+    """Ejecuta la configuración final del paso 6: comparación final integrando modelos tradicionales, H2O AutoML y NSGA-II."""
     # Configuración usada en este experimento.
     subset = "FD004"
     baseline_run_id = "FD004_baseline"

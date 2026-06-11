@@ -241,7 +241,7 @@ def run_paso_03_pipeline(subset: str, baseline_run_id: str, h2o_run_id: str, run
 
 
 def main() -> None:
-    """Parsea argumentos CLI y genera la comparación inicial entre baselines tradicionales y H2O."""
+    """Ejecuta la configuración final del paso 3: comparación inicial entre modelos tradicionales y H2O AutoML."""
     # Configuración usada en este experimento.
     subset = "FD004"
     baseline_run_id = "FD004_baseline"
