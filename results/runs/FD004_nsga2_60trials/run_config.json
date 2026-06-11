@@ -1,0 +1,22 @@
+{
+  "run_id": "FD004_nsga2_60trials",
+  "subset": "FD004",
+  "execution_type": "nsga2",
+  "comparison_run_id": "FD004_comparison_initial",
+  "n_trials": 60,
+  "population_size": 12,
+  "validation_size": 0.2,
+  "max_rmse_degradation": 0.15,
+  "random_state": 42,
+  "selected_model_short": "LightGBM",
+  "search_time_s": 61.35505849999754,
+  "generated_files": [
+    "compromise_selection.csv",
+    "nsga2_trials_validation.csv",
+    "nsga2_pareto_validation.csv",
+    "nsga2_test_results.csv",
+    "nsga2_pareto_test.csv",
+    "nsga2_best_compromise_test.csv",
+    "run_config.json"
+  ]
+}

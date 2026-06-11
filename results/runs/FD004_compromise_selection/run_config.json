@@ -1,0 +1,11 @@
+{
+  "run_id": "FD004_compromise_selection",
+  "subset": "FD004",
+  "execution_type": "compromise_selection",
+  "comparison_run_id": "FD004_comparison_initial",
+  "max_rmse_degradation": 0.15,
+  "generated_files": [
+    "compromise_selection.csv",
+    "run_config.json"
+  ]
+}

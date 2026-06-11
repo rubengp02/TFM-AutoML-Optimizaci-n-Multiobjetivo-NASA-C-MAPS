@@ -1,0 +1,16 @@
+{
+  "run_id": "FD004_comparison_initial",
+  "subset": "FD004",
+  "execution_type": "comparison",
+  "baseline_run_id": "FD004_baseline",
+  "h2o_run_id": "FD004_h2o_30models",
+  "nsga2_run_id": null,
+  "generated_files": [
+    "comparison.csv",
+    "comparison_compact.csv",
+    "comparison_latex.csv",
+    "pareto.csv",
+    "figures",
+    "run_config.json"
+  ]
+}

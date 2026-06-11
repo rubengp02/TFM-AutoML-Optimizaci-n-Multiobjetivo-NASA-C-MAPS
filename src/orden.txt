@@ -1,0 +1,39 @@
+El orden más lógico es seguir el flujo real del experimento, de datos a resultados:
+
+1. config.py
+
+Aquí están las constantes comunes: semilla aleatoria, umbrales, tamaños por defecto, etc.
+
+2. cmapss_data_preparation.py
+
+Carga y prepara C-MAPSS: nombres de columnas, archivos FD004, cálculo de RUL en train y última observación de test.
+
+3. exploration.py
+
+Genera la exploración básica: dimensiones, motores, ciclos, nulos y columnas de baja varianza.
+
+4. traditional_models.py
+
+Construye y evalúa los modelos tradicionales: Ridge, RandomForest, ExtraTrees, HistGradientBoosting, XGBoost y LightGBM.
+
+5. h2o_automl_pipeline.py
+
+Ejecuta H2O AutoML, obtiene el leaderboard, evalúa el modelo líder y guarda resultados.
+
+6. model_comparison.py
+
+Une resultados de modelos tradicionales, H2O y después NSGA-II. Calcula rankings, detecta Pareto y genera tablas comparativas.
+
+7. pareto_compromise_selection.py
+
+Selecciona automáticamente la mejor solución no ensemble del frente de Pareto inicial usando distancia al punto ideal.
+
+8. nsga2_multiobjective_optimization.py
+
+Aplica NSGA-II sobre el modelo seleccionado. Es el archivo más avanzado: espacio de hiperparámetros, objetivos, validación y evaluación final.
+
+9. final_figures.py
+
+Genera las figuras finales a partir de los CSV ya calculados.
+
+10. experiment_tracking.py

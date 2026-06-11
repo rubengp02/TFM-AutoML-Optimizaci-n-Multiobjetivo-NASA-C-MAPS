@@ -1,0 +1,16 @@
+{
+  "run_id": "FD004_baseline",
+  "subset": "FD004",
+  "execution_type": "baseline",
+  "validation_size": 0.2,
+  "drop_low_variance": true,
+  "random_state": 42,
+  "generated_files": [
+    "baseline_validation.csv",
+    "baseline_test.csv",
+    "low_variance_columns.csv",
+    "hyperparameters_baseline.csv",
+    "baseline_search_results.csv",
+    "run_config.json"
+  ]
+}

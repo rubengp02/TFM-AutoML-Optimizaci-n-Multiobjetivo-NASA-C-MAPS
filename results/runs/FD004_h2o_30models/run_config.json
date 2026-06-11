@@ -1,0 +1,24 @@
+{
+  "run_id": "FD004_h2o_30models",
+  "subset": "FD004",
+  "execution_type": "h2o",
+  "max_models": 30,
+  "max_runtime_secs": null,
+  "seed": 42,
+  "project_name": "cmapss_FD004_h2o_maxmodels_30_seed_42_final",
+  "keep_cross_validation_predictions": true,
+  "nfolds": 5,
+  "run_project_name": "cmapss_FD004_h2o_maxmodels_30_seed_42_final",
+  "train_time_equals_search_time": false,
+  "automl_search_time_s": 4165.821960500005,
+  "leader_train_time_s": 3.256,
+  "leader_train_time_source": "leaderboard_training_time_ms",
+  "h2o_leader_model_id": "StackedEnsemble_AllModels_1_AutoML_1_20260602_104941",
+  "generated_files": [
+    "h2o_leaderboard.csv",
+    "h2o_test_results.csv",
+    "hyperparameters_h2o_leader.csv",
+    "hyperparameters_h2o_all_models.csv",
+    "run_config.json"
+  ]
+}

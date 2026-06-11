@@ -1,0 +1,8 @@
+﻿pandas==3.0.3
+numpy==2.4.5
+scikit-learn==1.8.0
+matplotlib==3.10.9
+h2o==3.46.0.10
+xgboost==3.2.0
+lightgbm==4.6.0
+optuna==4.8.0
